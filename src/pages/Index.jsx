@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import ImageUploader from '../components/ImageUploader';
 import ImageComparison from '../components/ImageComparison';
-import EditingTips from '../components/EditingTips';
+import EditingTips from '@/components/EditingTips';
 
 const Index = () => {
   const [image1, setImage1] = useState(null);
